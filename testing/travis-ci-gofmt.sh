@@ -5,3 +5,4 @@ if [ -n "$(gofmt -s -l .)" ]; then
     gofmt -s -d -e .
     exit 1
 fi
+
